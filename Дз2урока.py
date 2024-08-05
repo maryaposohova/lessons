@@ -5,7 +5,7 @@ hours =1.5
 name_course ='Python'
 time_at_1_homework =1.5/12
 print ('Курс:',name_course,',', 'всего задач:', how_many_homework, ',', 'затрачено часов:',
-       hours, ',', 'среднее всемя выполнения:',time_at_1_homework,'часа.')
+       hours, ',', 'среднее время выполнения:',time_at_1_homework,'часа.')
 
 
 
