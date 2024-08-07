@@ -11,5 +11,10 @@ immutable_var[4][0] = '5', 6, [44]
 print(immutable_var)
 
 # список
-mutable_list =[1, 2, "a", True, 'Modified']
+mutable_list = [1, 2, "a", True, 'Modified']
+mutable_list[1] = ("Кортеж в составе списка")
 print(mutable_list)
+
+
+
+
