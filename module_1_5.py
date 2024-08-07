@@ -12,7 +12,7 @@ print(immutable_var)
 
 # список
 mutable_list = [1, 2, "a", True, 'Modified']
-mutable_list[1] = ("Кортеж в составе списка")
+mutable_list[1] = tuple(["Кортеж в составе списка", 2])
 print(mutable_list)
 
 
