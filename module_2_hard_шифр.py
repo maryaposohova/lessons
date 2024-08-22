@@ -1,21 +1,13 @@
-c = 1
-c_ = 1
-sum = 0
-count = 0
+# Задание "Слишком древний шифр"
 
-while c <= 10:
-    print(f'1 число {c}')
-    c = c + 1
-    count = c + 1
+n = 5
+list_ = ""
 
-    while c_ <= 10:
-        print(f'2 число {c_}')
-        sum = c + c_
-        print(sum)
-        c_ = c_ + 1
-        if sum > n:
-            n % sum
-        if sum == n and n % sum == 0 and n % sum == 0:
-            rez = f'{[c-1]}{[c_]}'
+for i in range(1, n):
+    for j in range(i + 1, n):
+        sum_ = i + j
+        if n % sum_ == 0:
+            list_ = list_ + f'{i}{j}'
 
-        print(f'{[c-1]}{[c_]}')
+print(list_)
+
